@@ -13,4 +13,4 @@ const removeCar = (index) => {
     value: index,
   };
 };
-export default addCar;
+export default (addCar) (removeCar)

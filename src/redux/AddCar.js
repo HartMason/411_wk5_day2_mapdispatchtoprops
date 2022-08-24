@@ -1,4 +1,4 @@
-import { Connect } from "react-redux";
+import { connect } from "react-redux";
 import AddCar from "../components/AddCar";
 import addCar from "./actions";
 

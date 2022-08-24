@@ -8,6 +8,9 @@ const cars = (state = [], action) => {
         case 'ADD_CAR': 
             return [...state, action.value ]
             default: return state
+        case 'REMOVE_CAR':
+            const newState = [...state]
+            newState.splice(action.value, 1)
         }
 }
 
