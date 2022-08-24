@@ -1,16 +1,16 @@
 import React from "react";
 
-const addCar = (car) => {
+export const addCar = (car) => {
   return {
     type: "ADD_CAR",
     value: car,
   };
 };
 
-const removeCar = (index) => {
+export const removeCar = (index) => {
   return {
     type: "REMOVE_CAR",
     value: index,
   };
 };
-export default (addCar) (removeCar)
+
